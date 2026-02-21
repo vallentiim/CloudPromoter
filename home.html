@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Site/imagens/cloud.ico" type="image/x-icon">
+    <title>PromoterCloud - Gestão de Tráfego Performance</title>
+    <link rel="stylesheet" href="./css/style-home.css">
+</head>
+
+<body>
+
+    <!--CABEÇALHO-->
+    <header>
+        <a href="home.html"><img src="./imagens/Logo.png" alt="" style="width: 150px;"></a>
+        <nav class="nav-links">
+            <a href="#about">Sobre</a>
+            <a href="#plans">Planos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    
+    <!-- TÍTULO -->
+    <section class="hero">
+        <h1>Gestão de tráfego focada em performance, transparência e resultado.</h1>
+    </section>
+    
+    <!-- QUEM SOMOS -->
+    <section class="about" id="about">
+        <h2>Quem somos:</h2>
+        <p>Na PromoterCloud, somos especialistas em gestão de tráfego pago com foco em performance real. Utilizamos tecnologia em nuvem, dados estratégicos e otimizações contínuas para transformar investimento em resultado.</p>
+        <p>Com uma abordagem inteligente e transparente, ajudamos empresas a alcançarem mais clientes, aumentarem seu retorno sobre anúncios (ROI) e escalarem seus negócios de forma sustentável.</p>
+        <p>Nosso time é formado por profissionais apaixonados por marketing, dados e resultados — prontos para impulsionar sua presença digital com precisão e eficiência.</p>
+    </section>
+    
+    <!-- VANTAGENS -->
+    <section class="features">
+        <div class="feature-card">
+            <h3>Análises em tempo real</h3>
+            <p>Monitore as métricas das campanhas com dados ao vivo.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Tecnologia em Nuvem</h3>
+            <p>Plataforma moderna, segura e escalável.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Chamados</h3>
+            <p>Realize chamados em caso de problema técnico.</p>
+        </div>
+    </section>
+    
+    <!-- PLANOS -->
+    <section class="plans" id="plans">
+        <h2>Escolha o plano ideal para escalar seus resultados com tráfego pago</h2>
+        <p class="subtitle">Transparência, tecnologia e suporte de verdade</p>
+        
+        <!-- CARDS -->
+        <div class="plan-cards">
+            
+            <!-- ESSENTIAL -->
+            <div class="plan-card">
+                <h3>Essential</h3>
+                <div class="price">R$1.500/mês</div>
+                <ul>
+                    <li>GESTÃO META ADS</li>
+                    <li>RELATÓRIOS SEMANAIS</li>
+                    <li>SUPORTE VIA E-MAIL</li>
+                </ul>
+                <a href="pagamento.html"><button class="btn plan-btn" data-plan="Essential">ASSINAR</button></a>
+            </div>
+            
+            <!-- PRO -->
+            <div class="plan-card">
+                <h3>Pro</h3>
+                <div class="price">R$3.000/mês</div>
+                <ul>
+                    <li>TUDO DO ESSENCIAL</li>
+                    <li>SUPORTE AOS QUINZENAIS</li>
+                </ul>
+                <a href="pagamento.html"><button class="btn plan-btn" data-plan="Pro">ASSINAR</button></a>
+            </div>
+            
+            <!-- PERFORMANCE -->
+            <div class="plan-card">
+                <h3>Performance</h3>
+                <div class="price">R$5.000/mês</div>
+                <ul>
+                    <li>TUDO DO PRO</li>
+                    <li>RELATÓRIOS PERSONALIZADOS</li>
+                    <li>TESTES A/B CONTÍNUOS EM ANÚNCIOS CRIATIVOS E PÁGINAS DE DESTINO</li>
+                </ul>
+                <a href="pagamento.html"><button class="btn plan-btn" data-plan="Performance">ASSINAR</button></a>
+            </div>
+        </div>
+        
+        <!--SOBRE PAGAMENTOS-->
+        <div class="payment-info">
+            <p><img src="Icons/cartão.png" alt="" style="width: 20px;"> Cartão de crédito ou débito</p>
+            <p><img src="Icons/faturamento.png" alt="" style="width: 18px;"> Faturamento mensal ou trimestral</p>
+            <p><img src="Icons/garantia.png" alt="" style="width: 18px;"> Garantia de cancelamento a qualquer momento</p>
+        </div>
+    </section>
+    
+    <!-- SLOGAN -->
+    <section class="hero">
+        <h2>Impulsionando resultados com tecnologia, estratégia e transparência</h2>
+    </section>
+    
+    <!-- CADASTRO E LOGIN -->
+    <section class="contact" id="contact">
+        <h2>Vamos conversar?</h2>
+        
+        <!-- CADASTRO -->
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Cadastre sua empresa:</h3>
+                <form id="contactForm">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="tel" placeholder="Telefone" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="text" placeholder="Empresa" required>
+                    <button onclick="btnlogin()" type="submit" class="btn" style="width: 100%;">Enviar</button>
+                </form>
+            </div>
+            
+            <!-- LOGIN -->
+            <div class="login-option">
+                <h3>Já é cliente?</h3>
+                <p style="margin-bottom: 20px; text-align: center;">Acesse sua conta para gerenciar suas campanhas e acompanhar seus resultados.</p>
+                <a href="login.html"><button class="btn" id="openLogin" style="width: 100%; max-width: 200px;">Acessar minha conta</button></a>
+            </div>
+        </div>
+       
+        <!-- CONTATO -->
+        <div class="contact-info">
+            <h3>Entre em contato:</h3>
+            <p><strong>Endereço:</strong> Rua XXXX - RECIFE - PE - CEP: XXXXX-XXX</p>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/PromoterCloud" target="_blank">@PromoterCloud</a></p>
+            <p><strong>Email:</strong> <a href="mailto:PromoterCloud@gmail.com">PromoterCloud@gmail.com</a></p>
+            <p><strong>Telefone:</strong> <a href="tel:+55819XXXX-XXXX">+55 (81) 9XXXX-XXXX</a></p>
+        </div>
+    </section>
+    
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2025 PromoterCloud. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script-home.js"></script>
+    
+</html>

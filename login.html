@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Site/imagens/cloud.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style-login.css">
+    <title>Login</title>
+</head>
+<body>
+    <a href="home.html"><img src="./imagens/Logo.png" alt="" style="position: fixed; align-items: center; width: 150px;"></a>
+    <div class="main-login">
+        <!--TÍTULO-->
+        <div class="left-login">
+            <h1>Faça login<br>E melhore seus resultados <br>Com gestão de tráfego</h1>
+        </div>
+        <div class="right-login">
+            <!--CARD DE LOGIN-->
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <!--EMAIL-->
+                <div class="textfield">
+                    <label for="Email"></label >
+                    <input type="text" name="email" placeholder="Email" required>
+                </div>
+                <!--SENHA-->
+                <div class="textfield">
+                    <label for="senha"></label>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+                <!--BOTÃO DE LOGIN-->
+                <button onclick="btnlogin()" class="btn-login">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script-login.js"></script>
+</body>
+</html>

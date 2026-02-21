@@ -1,0 +1,335 @@
+        /* GERAL */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        /* CORPO DO SITE */
+        body {
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        
+        /* CABEÇALHO */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        /* LOGO DO CABEÇALHO */
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #0066cc;
+        }
+        
+        /* TÓPICOS DO CABEÇALHO */
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* TÓPICOS DO CABEÇALHO SEM O MOUSE O ENCIMA */
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        /* TÓPICOS DO CABEÇALHO COM O MOUS ENCIMA */
+        .nav-links a:hover {
+            color: #0066cc;
+        }
+        
+        /* TÍTULO DO SITE */
+        .hero {
+            text-align: center;
+            padding: 100px 20px 60px;
+            background: linear-gradient(135deg, #0066cc, #004080);
+            color: white;
+        }
+        
+        /* TEXTO DO TÍTULO */
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        /* QUEM SOMOS */
+        .about {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            /* IMAGEM DE FUNDO */
+            background-image:url(../imagens/cloud-transparente.png) ;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: -200px;
+        }
+        
+        /* TÍTULO DE QUEM SOMOS */
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #0066cc;
+            text-align: center;
+        }
+        
+        /* PARAGRAFO DE QUEM SOMOS */
+        .about p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        /* VANTAGENS */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px 20px;
+            background-color: #f0f0f0;
+        }
+        
+        /* CARD DA VANTAGEM */
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+        }
+        
+        /* EXPLICAÇÃO DA VANTAGEM */
+        .feature-card h3 {
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+        
+        /* SEÇÃO DE PLANOS */
+        .plans {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: white;
+        }
+        
+        /* TÍTULO DA SEÇÃO DE PLANOS */
+        .plans h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #0066cc;
+        }
+        
+        /* SUBTITULO DA SEÇÃO DE PLANOS */
+        .plans p.subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #666;
+        }
+        
+        /* DIVISÃO DOS CARDS DE PLANOS */
+        .plan-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        /* CARD DO PLANO */
+        .plan-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        /* CARD DO PLANO COM MOUSE ENCIMA */
+        .plan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        /* TÍTULO DO CARD */
+        .plan-card h3 {
+            font-size: 1.5rem;
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+
+        /* PREÇO DO PLANO */
+        .plan-card .price {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        /* LISTA DE VANTAGENS DO PLANO */
+        .plan-card ul {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        
+        /* VANTAGENS DO PLANO */
+        .plan-card ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        /* SINAL DE VERIFICADO NA LISTA */
+        .plan-card ul li:before {
+            content: "✓";
+            color: #0066cc;
+            position: absolute;
+            left: 0;
+        }
+        
+        /* BOTÃO DE ASSINAR */ 
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* BOTÃO DE ASSINAR COM MOUSE ENCIMA */ 
+        .btn:hover {
+            background-color: #004080;
+        }
+        
+        /* BOTÃO DE ASSINAR SEM O MOUSE ENCIMA*/ 
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid #0066cc;
+            color: #0066cc;
+        }
+        
+        /* VANTAGENS DE PAGAMENTO DO SITE */ 
+        .payment-info {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        /* CADASTRO OU LOGIN */
+        .contact {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #0066cc, #004080);
+            color: white;
+            text-align: center;
+        }
+        
+        /* TITULO DE CADASTRO OU LOGIN */ 
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+        
+        /* DIVISÃO DE CADASTRO OU LOGIN */ 
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* CADASTRO DE EMPRESA */ 
+        .contact-form {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+        }
+        
+        /* LOGIN */ 
+        .login-option {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+        }
+        
+        /* TÍTULO DE CADASTRO E LOGIN */ 
+        .contact-form h3,
+        .login-option h3 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        /* CONTATO */ 
+        .contact-info {
+            margin-top: 40px;
+        }
+        
+        /* PARAGRAFO DE CONTATO */ 
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        
+        /* LINKS DE CONTATO */ 
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* LINKS DE CONTATO COM MOUSE ENCINA */ 
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        /* RODAPÉ */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }

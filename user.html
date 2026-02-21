@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Site/imagens/cloud.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style-user.css">
+    <title>PromoterCloud</title>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <a href="home.html"><img src="./imagens/Logo.png" alt="" style="width: 150px;"></a>
+        <div class="user-menu">
+            <a href="#">Minhas Campanhas</a>
+            <a href="#">Relatórios</a>
+            <a href="#">Configurações</a>
+            <div class="user-avatar" title="Meu Perfil">U</div>
+        </div>
+    </header>
+    
+    <main class="dashboard-container">
+        <!-- APRESENTAÇÃO -->
+        <section class="welcome-section">
+            <h1>Olá, <span id="username">Usuário</span>!</h1>
+            <p>Bem-vindo de volta à PromoterCloud</p>
+            <p>Veja um resumo das suas campanhas e desempenho atual em tempo real</p>
+        </section>
+        
+        <!-- INFORMAÇÕES -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Campanhas Ativas</h3>
+                <div class="value">3</div>
+            </div>
+            
+            <div class="stat-card">
+                <h3>Investimento Total</h3>
+                <div class="value">R$ 12.500</div>
+            </div>
+            
+            <div class="stat-card">
+                <h3>ROI Médio</h3>
+                <div class="value">312%</div>
+            </div>
+        </div>
+        
+        <!-- BOTÕES -->
+        <section class="actions-section">
+            <h2>Resumo da campanha</h2>
+            <div class="action-buttons">
+                <button class="btn">Abrir Chamado</button>
+                <button class="btn btn-outline">Criar Campanha</button>
+            </div>
+        </section>
+        
+        <!-- RESUMO DE CAMPANHA -->
+        <section class="campaign-summary">
+            <h2>Suas Campanhas</h2>
+            <p>Aqui você verá o resumo detalhado de todas as suas campanhas ativas.</p>
+            <!-- In a real implementation, you would have a table or list of campaigns here -->
+        </section>
+    </main>
+    
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2025 PromoterCloud. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script-user.js"></script>
+</body>
+</html>

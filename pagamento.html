@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromoterCloud - Finalizar Assinatura</title>
+    <link rel="shortcut icon" href="/Site/imagens/cloud.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style-pagamento.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <a href="home.html"><img src="./imagens/Logo.png" alt="" style="width: 150px;"></a>
+        <nav class="nav-links">
+            <a href="home.html">Sobre</a>
+            <a href="home.html">Planos</a>
+            <a href="home.html">Contato</a>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <div class="payment-header">
+            <h1>Finalize sua assinatura com segurança</h1>
+            <p>Escolha a forma de pagamento e ative seu plano</p>
+        </div>
+        
+        <div class="payment-card">
+            <div class="plan-info">
+                <h2>TIPO DE PLANO: <span id="selected-plan">Performance</span></h2>
+                <div class="plan-details">
+                    <div class="plan-value">
+                        <strong>VALOR:</strong> R$5.000/mês
+                    </div>
+                </div>
+            </div>
+            
+             <!-- FORMAS DE PAGAMENTO -->
+            <div class="payment-methods">
+                <h3>FORMAS DE PAGAMENTO</h3>
+                <div class="payment-options">
+                    <label class="payment-option selected">
+                        <input type="radio" name="payment-method" value="pix" checked> 
+                        PIX
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment-method" value="credit"> 
+                        Cartão de Crédito
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment-method" value="debit"> 
+                        Cartão de Débito
+                    </label>
+                </div>
+                
+                <!-- CARTÃO -->
+                <div id="credit-card-form" style="display: none;">
+                    <div class="form-group">
+                        <label for="card-name">NOME NO CARTÃO</label>
+                        <input type="text" id="card-name" placeholder="Nome como está no cartão">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="card-number">NÚMERO DO CARTÃO</label>
+                        <input type="text" id="card-number" placeholder="0000 0000 0000 0000">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="card-expiry">VALIDADE</label>
+                            <input type="text" id="card-expiry" placeholder="MM/AA">
+                        </div>
+                        <div class="form-group">
+                            <label for="card-cvc">CVC</label>
+                            <input type="text" id="card-cvc" placeholder="CVC">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cpf-cnpj">CPF/CNPJ</label>
+                        <input type="text" id="cpf-cnpj" placeholder="000.000.000-00 ou 00.000.000/0000-00">
+                    </div>
+                </div>
+                
+                <!-- PIX -->
+                <div id="pix-form">
+                    <p style="margin: 20px 0; text-align: center; font-size: 1.1rem;">
+                        Ao confirmar, você receberá um QR Code e código PIX para pagamento.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="terms-checkbox">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">Li e aceito os <a href="#">termos de serviço</a></label>
+            </div>
+            
+            <button type="submit" class="btn">FINALIZAR COMPRA</button>
+        </div>
+    </main>
+    
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2025 PromoterCloud. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script-pagamento.js"></script>
+</body>
+</html>
