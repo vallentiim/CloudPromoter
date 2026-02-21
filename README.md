@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![PHPL](https://img.shields.io/badge/Php-4479A1?logo=php&logoColor=white)
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 **PromoterCloud** é uma plataforma de gestão de tráfego pago, desenvolvida para oferecer:
 - Análises em tempo real de campanhas
@@ -16,13 +16,13 @@
 - Dashboard intuitivo para clientes
 - Arquitetura escalável com banco de dados relacional
 
-### 🎯 Objetivo do Projeto
+###Objetivo do Projeto
 
 Demonstrar habilidades em desenvolvimento, com foco em:
 - Front-end responsivo e experiência do usuário
 - Práticas de versionamento e documentação
 
-## 🛠️ Tecnologias Utilizadas
+##Tecnologias Utilizadas
 
 ### Front-end
 - **HTML5** - Estrutura semântica
@@ -32,7 +32,7 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 ### Back-end (Estrutura Projetada)
 - SQL & PHP
 
-### 🔍 Destaques do Banco
+###Destaques do Banco
 - Views para relatórios gerenciais
 - Triggers para validação de limites
 - Procedures para renovação automática
@@ -40,7 +40,7 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 
 ## ✨ Funcionalidades Implementadas
 
-### ✅ Front-end
+###Front-end
 - [x] Página institucional responsiva
 - [x] Cards de planos interativos
 - [x] Formulário de cadastro/contato
@@ -48,7 +48,7 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 - [x] Checkout simulado com múltiplos métodos
 - [x] Dashboard do cliente
 
-### 🔄 Back-end (Projetando)
+###Back-end (Projetando)
 - [x] Modelagem completa do banco de dados
 - [x] Sistema de autenticação
 - [x] Gestão de assinaturas
