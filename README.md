@@ -32,7 +32,7 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 ### Back-end (Estrutura Projetada)
 - SQL & PHP
 
-###Destaques do Banco
+### Destaques do Banco
 - Views para relatórios gerenciais
 - Triggers para validação de limites
 - Procedures para renovação automática
