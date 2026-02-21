@@ -38,7 +38,7 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 - Procedures para renovação automática
 - Índices estratégicos para consultas rápidas
 
-## ✨ Funcionalidades Implementadas
+##Funcionalidades Implementadas
 
 ###Front-end
 - [x] Página institucional responsiva
