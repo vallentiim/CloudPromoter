@@ -16,13 +16,13 @@
 - Dashboard intuitivo para clientes
 - Arquitetura escalável com banco de dados relacional
 
-###Objetivo do Projeto
+### Objetivo do Projeto
 
 Demonstrar habilidades em desenvolvimento, com foco em:
 - Front-end responsivo e experiência do usuário
 - Práticas de versionamento e documentação
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Front-end
 - **HTML5** - Estrutura semântica
@@ -38,9 +38,9 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 - Procedures para renovação automática
 - Índices estratégicos para consultas rápidas
 
-##Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
-###Front-end
+### Front-end
 - [x] Página institucional responsiva
 - [x] Cards de planos interativos
 - [x] Formulário de cadastro/contato
@@ -48,7 +48,7 @@ Demonstrar habilidades em desenvolvimento, com foco em:
 - [x] Checkout simulado com múltiplos métodos
 - [x] Dashboard do cliente
 
-###Back-end (Projetando)
+### Back-end (Projetando)
 - [x] Modelagem completa do banco de dados
 - [x] Sistema de autenticação
 - [x] Gestão de assinaturas
